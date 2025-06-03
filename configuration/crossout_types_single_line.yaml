@@ -1,16 +1,16 @@
 path:
 train:
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/train/SINGLE_LINE/images/
-val: /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/val/SINGLE_LINE/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/train/SINGLE_LINE/images/
+val: /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/val/SINGLE_LINE/images/
 test: 
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/clean/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/mixed_1/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/single_line/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/double_line/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/diagonal/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/cross/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/wave/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/zig_zag/images/
-  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/scratch/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/clean/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/mixed_1/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/single_line/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/double_line/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/diagonal/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/cross/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/wave/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/zig_zag/images/
+  - /home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/scratch/images/
 
 names: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' ', '!', '"', '#', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '?']
