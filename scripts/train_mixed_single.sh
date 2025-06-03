@@ -35,8 +35,8 @@ output_file="${PATHLOG}/log.txt"
 # The job
 python -u $main_script \
 	"configuration/crossout_types_single_line.yaml" \
-	"/home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/val/mixed/labels" \
-	"/home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/test/clean/labels" \
+	"/home/gayapath/PROJECTS/DATASETS/IAM/YOLO/val/clean/labels" \
+	"/home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/clean/labels" \
 	$PATHLOG \
 	--batch_size 16 \
 	--nb_epochs_max 200 \
@@ -45,7 +45,7 @@ python -u $main_script \
 	--img_weight_yolo 512 \
 	--name_model "yolov8x.yaml" \
 	--degrees 4 \
-	--gpu_device "cuda:1" \
+	--gpu_device "cuda" \
 	--trained_on "SINGLE_LINE" \
 	--model_id "35" \
 >> $output_file
