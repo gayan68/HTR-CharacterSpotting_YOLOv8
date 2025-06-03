@@ -1,0 +1,11 @@
+path: 
+train: C:/Users/simcor/dev/data/IAM/words/split_yolo_struck_v3/striked_v3/train/images/CROSS_d/images
+val: C:/Users/simcor/dev/data/IAM/words/split_yolo_struck_v3/striked_v3/val/images/CROSS_d/images
+test:
+  - C:/Users/simcor/dev/data/IAM/words/split_yolo_struck_v3/striked_v3/val/images/CROSS_d/images
+  - C:/Users/simcor/dev/data/IAM/words/split_yolo_struck_v3/striked_v3/val/images/DIAGONAL_d/images
+test_removed:
+  - C:/Users/simcor/dev/data/IAM/words/split_yolo_struck_v3/striked_v3/val/images/CROSS_d/images
+  - C:/Users/simcor/dev/data/IAM/words/split_yolo_struck_v3/striked_v3/val/images/DIAGONAL_d/images  
+
+names: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' ', '!', '"', '#', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '?']

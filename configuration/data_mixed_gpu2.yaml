@@ -1,0 +1,12 @@
+path:
+train:
+  - /home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/train/mixed/images/
+val: /home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/val/mixed/images/
+test_clean: 
+  - /home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/test/clean/images/
+  - /home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/test/cleaned_clean/images/
+test_mixed:
+  - /home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/test/mixed_1/images/
+  - /home/gayapath/PROJECTS/DATASETS/IAM_local_DGX_2/YOLO/test/cleaned_mixed_1/images/
+
+names: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' ', '!', '"', '#', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '?']

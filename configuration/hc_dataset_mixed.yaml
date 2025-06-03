@@ -1,0 +1,12 @@
+path:
+train:
+  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/train/mixed/images/
+val: /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/val/mixed/images/
+test_clean: 
+  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/clean_hc/images/
+  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/cleaned_clean_hc/images/
+test_mixed:
+  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/mixed_hc/images/
+  - /home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/cleaned_mixed_hc/images/
+
+names: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' ', '!', '"', '#', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '?']

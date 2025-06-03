@@ -1,0 +1,31 @@
+path:
+train:
+  - /proj/document_analysis/users/x_scorb/data/iam/words/CLEAN/train/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/CROSS/train/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/DIAGONAL/train/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/DOUBLE_LINE/train/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/SCRATCH/train/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/SINGLE_LINE/train/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/WAVE/train/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/ZIG_ZAG/train/images/
+val: /proj/document_analysis/users/x_scorb/data/iam/words/MIXED/val/images/
+test: test/images
+  - /proj/document_analysis/users/x_scorb/data/iam/words/CLEAN/test/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/CROSS/test/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/DIAGONAL/test/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/DOUBLE_LINE/test/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/SCRATCH/test/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/SINGLE_LINE/test/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/WAVE/test/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/ZIG_ZAG/test/images/
+test_removed:
+  - /proj/document_analysis/users/x_scorb/data/iam/words/CLEAN/test_removed/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/CROSS/test_removed/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/DIAGONAL/test_removed/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/DOUBLE_LINE/test_removed/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/SCRATCH/test_removed/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/SINGLE_LINE/test_removed/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/WAVE/test_removed/images/
+  - /proj/document_analysis/users/x_scorb/data/iam/words/ZIG_ZAG/test_removed/images/
+
+names: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' ', '!', '"', '#', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '?']
