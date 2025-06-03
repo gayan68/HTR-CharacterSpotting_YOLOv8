@@ -7,6 +7,9 @@
 #SBATCH -t 3-0:00:00
 #SBATCH --mem=40G
 
+#Experiment ID
+EXPERIMENT_ID="49"
+
 # conda init bash
 # source /home/x_scorb/miniconda3/etc/profile.d/conda.sh
 # conda activate htr-yolo
@@ -19,12 +22,12 @@ echo "Create dir for log"
 CURRENTDATE=`date +"%Y-%m-%d_%H-%M"`
 echo "currentDate :"
 echo $CURRENTDATE
-PATHLOG="logs/${CURRENTDATE}/"
+PATHLOG="/home/gayapath/PROJECTS/logs/HTR-CharacterSpotting_YOLOv8/${EXPERIMENT_ID}_${CURRENTDATE}/"
 echo "path log :"
 echo ${PATHLOG}
 mkdir ${PATHLOG}
 
-echo "GPU id: 1"
+echo "GPU id: 0"
 #echo ${SLURM_STEP_GPUS:-$SLURM_JOB_GPUS}
 
 
@@ -47,7 +50,8 @@ python -u $main_script \
 	--degrees 4 \
 	--gpu_device "cuda" \
 	--trained_on "SINGLE_LINE" \
-	--model_id "35" \
+	--project "$PATHLOG" \
+	--model_id "$EXPERIMENT_ID"  \
 >> $output_file
 
 

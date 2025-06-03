@@ -52,6 +52,7 @@ parser.add_argument('--translate', default=0, type=float)
 parser.add_argument('--gpu_device', default="cuda:0", type=str)
 parser.add_argument('--trained_on', default="", type=str)
 parser.add_argument('--model_id', default="", type=str)
+parser.add_argument('--project', default="character_spotting", type=str)
 
 args = parser.parse_args()
 print(args)
@@ -110,7 +111,7 @@ date = date.replace(":", "_")
 date = date.replace(".", "_")
 # date_split = str.split(date, " ")
 #date = date_split[0] + "_" + date_split[1]  # remove space
-project = "character_spotting"
+project = args.project
 
 print("Expe name:")
 print(date)
