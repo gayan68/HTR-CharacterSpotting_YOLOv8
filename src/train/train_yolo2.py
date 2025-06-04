@@ -104,17 +104,18 @@ model = YOLO(args.name_model)  #
 # Add W&B callback for Ultralytics
 # add_wandb_callback(model, enable_model_checkpointing=True)
 
-date = datetime.datetime.now()
-date = str(date)  # '2024-10-15 14:46:33.078424'
-date = date.replace(" ", "_")
-date = date.replace(":", "_")
-date = date.replace(".", "_")
+# date = datetime.datetime.now()
+# date = str(date)  # '2024-10-15 14:46:33.078424'
+# date = date.replace(" ", "_")
+# date = date.replace(":", "_")
+# date = date.replace(".", "_")
 # date_split = str.split(date, " ")
 #date = date_split[0] + "_" + date_split[1]  # remove space
 project = args.project
+model_id = args.model_id
 
-print("Expe name:")
-print(date)
+print(f"Expe name: {model_id}")
+# print(date)
 # model = YOLO("yolov8x.yaml")
 # results = model.train(data="datasets/iam/data.yaml", epochs=600, patience=100, imgsz=512, augment=True, degrees=4,
 # iou=0.2, conf=0.1, agnostic_nms=True)
@@ -129,7 +130,7 @@ try:
     results = model.train(data=args.dataset_yaml,
                           imgsz=(args.img_height_yolo, args.img_weight_yolo),
                           project=project,
-                          name=date,
+                          name=model_id,
                           batch=args.batch_size,
                           epochs=args.nb_epochs_max,
                           patience=args.patience_early_stopping,
@@ -146,7 +147,7 @@ try:
 except Exception as e:
     print(e)
 ####################################################### GRID Search and Testing ##############################################
-save_dir = os.path.join(project, date, "weights")
+save_dir = os.path.join(project, model_id, "weights")
 
 # Finish the W&B run
 # wandb.finish()
@@ -250,4 +251,4 @@ df_data = [
 
 df = pd.DataFrame(df_data, columns= df_menu)
 
-df.to_csv(f"results_{args.model_id}.csv", index=False)
+df.to_csv(os.path.join(project, "results.csv"), index=False)

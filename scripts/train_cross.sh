@@ -17,10 +17,11 @@ mamba activate pytorch25
 
 # Parameters
 file=train_yolo2.py
+config=crossout_types_cross.yaml
 
-root=/home/x_gapat/PROJECTS/codes/HTR-CharacterSpotting_YOLOv8/src/train/
-main_script="${root}/${file}"
-
+root=/home/x_gapat/PROJECTS/codes/HTR-CharacterSpotting_YOLOv8
+main_script="${root}/src/train/${file}"
+config_file="${root}/configuration/${config}"
 
 echo "Create dir for log"
 CURRENTDATE=`date +"%Y-%m-%d_%H-%M"`
@@ -37,7 +38,7 @@ export PYTHONPATH=/proj/document_analysis/users/x_gapat/codes/HTR-CharacterSpott
 
 # The job
 python -u $main_script \
-	"configuration/crossout_types_cross.yaml" \
+	"$config_file" \
 	"/home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/val/clean/labels" \
 	"/home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/clean/labels" \
 	$PATHLOG \
