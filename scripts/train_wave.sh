@@ -38,8 +38,8 @@ export PYTHONPATH=/proj/document_analysis/users/x_gapat/codes/HTR-CharacterSpott
 # The job
 python -u $main_script \
 	"configuration/crossout_types_wave.yaml" \
-	"/home/gayapath/PROJECTS/DATASETS/IAM/YOLO/val/clean/labels" \
-	"/home/gayapath/PROJECTS/DATASETS/IAM/YOLO/test/clean/labels" \
+	"/home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/val/clean/labels" \
+	"/home/x_gapat/PROJECTS/DATASETS/IAM/YOLO/test/clean/labels" \
 	$PATHLOG \
 	--batch_size 16 \
 	--nb_epochs_max 200 \
