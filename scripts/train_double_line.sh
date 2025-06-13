@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A Berzelius-2025-71
-#SBATCH -o /proj/document_analysis/users/x_scorb/logs/handwriting_crossout/%j.out
-#SBATCH -e /proj/document_analysis/users/x_scorb/logs/handwriting_crossout/%j.err
+#SBATCH -o /proj/document_analysis/users/x_gapat/logs/multiscripts/%j.out
+#SBATCH -e /proj/document_analysis/users/x_gapat/logs/multiscripts/%j.err
 #SBATCH -n 1
 #SBATCH -G 1
 #SBATCH -c 4                           # one CPU core
