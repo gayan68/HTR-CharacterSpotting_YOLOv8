@@ -1,6 +1,10 @@
+# HTR-CharacterSpotting
+
+**HTR-CharacterSpotting** is a Handwritten Text Recognition (HTR) framework that use **YOLOv8** for character detection and utilize autonomous tagging methods to enable character-level ground truth generation.  
+
 ## Acknowledgment
 
-This work uses **YOLOv8** for character detection and adopts the **autonomous tagging method** proposed by:  
+This work adopts the **autonomous tagging method** proposed by:  
 
 Majid, Nishatul and Barney Smith, Elisa H.  
 *Character spotting and autonomous tagging: offline handwriting recognition for Bangla, Korean and other alphabetic scripts*.  
