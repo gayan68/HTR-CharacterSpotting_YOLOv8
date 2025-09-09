@@ -31,6 +31,13 @@ train
 ```
 The labels should be per image, following the YOLO format.
 
+### How to create YOLO Labels
+
+
+Most datasets do not have letter-level annotations. However, YOLO training requires letter-level bounding boxes. The Autonomous Tagging method proposed by the [Character spotting and autonomous tagging Paper](https://doi.org/10.1007/s10032-022-00397-6) introduces a way to automatically create labels.
+
+You can use `auto_tag_generator.py` to generate labels for YOLO.
+ 
 ## Our Usage and Contribution
 
 We replaced the object detector in [Character spotting](https://doi.org/10.1007/s10032-022-00397-6) with YOLOv8
