@@ -30,3 +30,7 @@ train
    ---labels
 ```
 The labels should be per image, following the YOLO format.
+
+## Our Usage and Contribution
+
+We replaced the object detector in [Character spotting](https://doi.org/10.1007/s10032-022-00397-6) with YOLOv8
